@@ -1,0 +1,72 @@
+.header-up{
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+
+}
+.header{
+  background-color:lightyellow;
+  height: 480px;
+  
+ 
+  
+
+}
+
+.header-down h1 {
+  font-size: 4rem;
+  
+}
+.header-down{
+  padding: 50px;
+}
+
+.main{
+
+  display: flex;
+  
+  padding: 10px 10px;
+ 
+  
+}
+
+.main-left{
+width: 80%;
+padding: 40px;
+  
+}
+
+.main-right{
+  background-color: rgb(244, 241, 241);
+  width: 20%;
+  padding: 20px;
+  border:solid 1px rgb(209, 208, 208);
+  border-radius: 5px;
+}
+
+.tutorials{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+}
+#tutorial{
+  background-color: lightcyan;
+  padding: 10px;
+  border: 1px solid rgb(214, 211, 211) ;
+  border-radius: 5px;
+  box-shadow: 5px;
+}
+
+#details{
+  background-color: rgb(4, 70, 4);
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  
+
+}
